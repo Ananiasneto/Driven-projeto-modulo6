@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.conteudo-pagina{
+    display: flex;
+    width: 100vw;
+    height: 100dvh;
+    box-sizing: border-box;  
+    margin-bottom: 80px
+    
+}
+.topo{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px 4px 8px 0px #0000000D;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+}
+.topo img{
+    width: 75px;
+    height: 43px;
+}
+
+.mensagens-enviadas{
+    background-color: #f3f3f3;
+    overflow-y: auto;
+}
+.mensagem{
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    padding-right: 15px;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.botao-menu ion-icon{
+    font-size: 45px;
+ }
+ .hora{
+    padding-left: 15px;
+    padding-right: 4px;
+    font-size: 14px;
+    font-family: roboto,sans serif;
+    font-weight: 400;
+    color: gray;
+}
+.usuario{
+    padding-right: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: roboto,sans serif;
+}
+.conteudo{
+    padding-right: 4px;
+    font-size: 14px;
+    font-family: roboto,sans serif;
+    font-weight: 400;
+}
+.icon ion-icon{
+    font-size: 25px;
+}
+
+.barra-envio{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-shadow: 0px -4px 6px 2px #0000000D;
+    background-color: rgba(255, 255, 255,1);
+    
+
+}
+
+input{
+    width:100vw;
+    border: none;
+    padding-bottom: 5px;
+}
+input::placeholder{
+    font-family: roboto,sans serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #000;
+}
+.caixa-texto{
+    font-family: roboto,sans serif;
+    width: 70%;
+}
+.caixa-texto h2{
+    font-weight: 300;
+    font-size: 14px;
+    color: gray;
+}
+.menu {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    height: 100%;
+    width: 60%;  
+    background-color: #fff;
+    background-color: rgba(255, 255, 255,1);
+    
+}
+.fundo{
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.70);
+}
+.texto-principal{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.info ion-icon{
+    font-size: 25px;
+    padding-right: 5px;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.escolhido ion-icon{
+    padding-right: 14px;
+    font-size: 14px;
+    color: #28BB25;
+   
+}
+.habilitar ion-icon{
+    display: flex;
+}
+.tipoVisibilidade,.contato{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 14px;
+}
+.desabilitar{
+    display: none;
+}
+.status{
+    background-color: #dcdcdd;
+    width:100vw;
+}
+.private_message{
+    background-color: #FFDEDE;
+    width: 100vw;
+}
+.hora{
+    color: gray;
+}
